@@ -1,0 +1,29 @@
+
+
+
+html {
+  background-color:#FAF6EF;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  color: #2C2C2C; 
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+  color: #3D4A2A;
+}
+
+
+.owners {
+  display: flex;
+
+}
+.owners img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top; 
+}
