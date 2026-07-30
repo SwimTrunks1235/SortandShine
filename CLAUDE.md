@@ -14,4 +14,12 @@ He works on this from multiple machines (work + home) and syncs via `git push`/`
 
 Done: single `<h1>`/clean heading hierarchy, working `<meta name="description">`, sticky full-width nav (`<nav>` sits outside a `<main>` wrapper so it can span full width while `<main>` stays centered at `max-width: 700px`) with anchor links to `#transformations`, `#services`, `#process`, `#about`, `#contact`, solid green nav background with light text, flexbox horizontal nav layout with `justify-content: space-between`.
 
-Still open: Services and Our Process sections are bare headers with no content; Sahar/Savannah bios still say "Placeholder"; no responsive/mobile pass done yet; file is still named `SandS.html` — will need renaming to `index.html` before actual hosting (not urgent for local dev).
+Still open: Services and Our Process sections are bare headers with no content; Sahar/Savannah bios still say "Placeholder"; no responsive/mobile pass done yet; file is still named `SandS.html` — will need renaming to `index.html` before actual hosting (not urgent for local dev). The "Book a consultation" text (currently plain `<p>`, not a link) needs to become a real `<a>` pointing at `#contact` until Sahar/Savannah have a real booking flow.
+
+## Business setup follow-ups (not website code, but blocking a real launch)
+
+Sahar and Savannah still need to sort out, before this can go live for real clients:
+
+- A booking tool — free Calendly ("Basic" plan) or Google Calendar's built-in free "Appointment schedule" feature (they already have a Google account via their Voice number, so this may be less friction).
+- Their shared Google Voice number is causing missed/misrouted calls (Savannah's supposed to take them, sometimes lands on mom's phone). Worth checking whether Voice is set up to forward-ring multiple phones at once rather than fully untangling the shared account.
+- Sign up for Nextdoor — strong free channel for a hyper-local service business like this.
