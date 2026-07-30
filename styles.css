@@ -1,57 +1,58 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Lato:wght@400;700&display=swap");
 
 .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
-    justify-content: center;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
 }
 
 .column img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center 30%;
-  }
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
+}
 
 .column {
-    flex: 1;
-    max-width: 400px;
-    text-align: center;
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
 }
 
 .column img {
-    width: 225px;
-    max-width: 280px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid rgba(61, 74, 42, 0.15);
+  width: 225px;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgba(61, 74, 42, 0.15);
 }
 
 html {
-  background-color: #FAF6EF;
+  background-color: #faf6ef;
 }
 
-body {
+main {
   max-width: 700px;
   margin: 0 auto;
   padding: 2rem 1.5rem 3rem;
-  font-family: 'Lato', sans-serif;
-  color: #2C2C2C;
-  line-height: 1.6;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .gallery-item {
@@ -69,21 +70,29 @@ body {
   width: 100%;
 }
 
-.gallery-item p { grid-column: 1 / -1; 
+.gallery-item p {
+  grid-column: 1 / -1;
 }
 
 .navbar {
   margin-bottom: 1.5rem;
+  position: sticky;
+  background-color: #3d4a2a;
+  top: 0;
+  padding: 0.75rem 1.5rem;
 }
 
 .navbar ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .navbar a {
-  color: #3D4A2A;
+  color: #faf6ef;
   text-decoration: none;
   font-weight: 700;
 }
@@ -92,9 +101,11 @@ body {
   text-decoration: underline;
 }
 
-h1, h2, h3 {
-  font-family: 'Cormorant Garamond', serif;
-  color: #3D4A2A;
+h1,
+h2,
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  color: #3d4a2a;
   margin-bottom: 0.5rem;
 }
 
@@ -110,7 +121,8 @@ h3 {
   font-size: 1.3rem;
 }
 
-p, li {
+p,
+li {
   font-size: 1rem;
 }
 
