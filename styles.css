@@ -37,6 +37,10 @@
   border: 4px solid rgba(61, 74, 42, 0.15);
 }
 
+#contact {
+  margin-top: 10rem;
+}
+
 html {
   background-color: #faf6ef;
 }
@@ -91,8 +95,8 @@ body {
 
 .navbar ul {
   display: flex;
-  gap: 1rem;
-  justify-content: space-between;
+  gap: 2rem;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -134,7 +138,7 @@ li {
 }
 
 section {
-  margin-top: 0.2rem;
+  margin-top: 3rem;
 }
 
 img {
