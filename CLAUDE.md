@@ -10,11 +10,11 @@ Brand basics: tagline "Less Clutter, More Calm," cream background `#FAF6EF`, sag
 
 He works on this from multiple machines (work + home) and syncs via `git push`/`git pull` on `origin/main` — this file is the intended way a new session on either machine picks the above rule back up without him re-explaining it.
 
-## Status (as of 2026-07-30)
+## Status (as of 2026-07-31)
 
-Done: single `<h1>`/clean heading hierarchy, working `<meta name="description">`, sticky full-width nav (`<nav>` sits outside a `<main>` wrapper so it can span full width while `<main>` stays centered at `max-width: 700px`) with anchor links to `#transformations`, `#services`, `#process`, `#about`, `#contact`, solid green nav background with light text, flexbox horizontal nav layout with `justify-content: space-between`.
+Done: single `<h1>`/clean heading hierarchy, working `<meta name="description">`, sticky full-width nav (`<nav>` sits outside a `<main>` wrapper so it can span full width while `<main>` stays centered at `max-width: 700px`) with anchor links to `#transformations`, `#services`, `#process`, `#about`, `#contact`, solid green nav background with light text, flexbox horizontal nav layout with `justify-content: space-between`; Back to Top link fixed to use bare `#` instead of anchoring to the (always-visible, sticky) nav itself; real Sahar and Savannah bios written (replacing "Placeholder"), bio text left-aligned, body copy bumped to `1.2rem`.
 
-Still open: Services and Our Process sections are bare headers with no content; Sahar/Savannah bios still say "Placeholder"; no responsive/mobile pass done yet; file is still named `SandS.html` — will need renaming to `index.html` before actual hosting (not urgent for local dev). The "Book a consultation" text (currently plain `<p>`, not a link) needs to become a real `<a>` pointing at `#contact` until Sahar/Savannah have a real booking flow.
+Still open: Services and Our Process sections are bare headers with no content; no responsive/mobile pass done yet; file is still named `SandS.html` — will need renaming to `index.html` before actual hosting (not urgent for local dev). The "Book a consultation" text (currently plain `<p>`, not a link) needs to become a real `<a>` pointing at `#contact` until Sahar/Savannah have a real booking flow.
 
 ## Business setup follow-ups (not website code, but blocking a real launch)
 
