@@ -113,6 +113,13 @@ body {
   text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+  }
+}
+
 h1,
 h2,
 h3 {
