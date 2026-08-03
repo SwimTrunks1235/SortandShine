@@ -129,20 +129,20 @@ h3 {
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: clamp(2rem, 6vw, 3.2rem);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 3vw, 1.4rem);
 }
 
 p,
 li {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
 section {
