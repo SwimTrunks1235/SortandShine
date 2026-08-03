@@ -68,10 +68,10 @@ body {
 
 .gallery-item {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 0.2rem;
   justify-content: center;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .gallery-item img {
@@ -125,11 +125,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 p,
